@@ -720,9 +720,121 @@ header .links .active a::after {
     --bg-color: #FFB900;
 }
 
-.slide {
+.block .slide {
     padding: 0;
     margin-top: 38px;
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Footer */
+footer {
+    background: #2E2100;
+}
+
+footer .content {
+    padding-top: 96px;
+    padding-bottom: 28px;
+}
+
+footer .cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+footer .social {
+    max-width: 267px;
+}
+
+footer .social .desc {
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.86;
+    /* 185.714% */
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+footer .company .title,
+footer .Support .title,
+footer .address .title {
+    color: #FFF;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75;
+    /* 175% */
+    padding-bottom: 14px;
+}
+
+footer .company .separation,
+footer .Support .separation,
+footer .address .separation {
+    width: 130px;
+    height: 1px;
+    background: #59554B;
+}
+
+footer .company .item,
+footer .Support .item {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+footer .company .item:first-of-type,
+footer .Support .item:first-of-type {
+    padding-top: 28px;
+}
+
+footer .company .item a,
+footer .Support .item a {
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.86;
+    /* 185.714% */
+}
+
+footer .address p {
+    color: #BFBCB2;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.86;
+}
+
+footer .address p:nth-of-type(1) {
+    padding-top: 28px;
+}
+
+footer .address p:nth-of-type(2) {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+
+footer .address strong {
+    color: #FFF;
+    font-weight: 600;
+
+}
+
+footer .separation {
+    height: 1px;
+    background: #59554B;
+}
+
+footer .copyright {
+    color: #807D74;
+    text-align: center;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.86;
+    /* 185.714% */
+    margin-top: 28px;
 }
